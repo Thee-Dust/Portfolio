@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar';
+import Header from './Header';
 import './App.css';
 
 export default class App extends Component {
@@ -12,11 +12,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <header>
-          <a href="/">Dustin Harbaugh</a>
-        </header>
+        <Navbar />
         <main>
-          <Navbar />
         </main>
       </div>
     )
