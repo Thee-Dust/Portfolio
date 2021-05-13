@@ -1,0 +1,6 @@
+div > nav {
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  background: #A7A7A7;
+}
