@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Header from './Header';
+import Navbar from '../Navbar/Navbar';
 import './App.css';
 
 export default class App extends Component {
@@ -12,7 +12,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <Header />
+        <Navbar />
       </div>
     )
   }
