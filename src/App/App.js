@@ -1,19 +1,15 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Navbar from '../Navbar/Navbar';
 import './App.css';
+import Main from '../Main/Main';
 
-export default class App extends Component {
-  constructor() {
-    super();
-    this.state = {
+export default function App () {
 
-    }
-  }
-  render() {
-    return (
-      <div>
-        <Navbar />
-      </div>
-    )
-  }
+  return (
+    <div>
+      <Navbar />
+      <Main />
+    </div>
+  )
 }
+
