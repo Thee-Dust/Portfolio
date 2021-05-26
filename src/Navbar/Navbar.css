@@ -1,6 +1,22 @@
-div > nav {
+nav {
   height: 50px;
+  background: #A7A7A7;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
-  background: #A7A7A7;
+  align-items: center;
+}
+
+.links > a {
+  color: black;
+  text-decoration: none;
+}
+
+.links > a:visited {
+  color: black;
 }
