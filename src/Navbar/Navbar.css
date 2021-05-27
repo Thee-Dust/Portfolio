@@ -1,0 +1,25 @@
+nav {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  font-size: 1.25rem;
+}
+
+.links {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.links > a {
+  cursor: pointer;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.links > a:visited {
+  color: #ffffff;
+}
