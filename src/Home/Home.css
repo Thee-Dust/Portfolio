@@ -10,3 +10,9 @@
 .home > h1 {
   margin: 0;
 }
+
+.headshot {
+  margin-top: 50px;
+  width: 200px;
+  border-radius: 250px;
+}
