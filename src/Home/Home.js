@@ -7,7 +7,7 @@ export default function Home() {
     <div className='home'>
       <h1>Hey, I'm Dustin Harbaugh</h1>
       <h1>You can call me The Dust!</h1>
-      <h3>I'm a Front-End Web Developer</h3>
+      <h3>and I'm a Front-End Web Developer</h3>
       <img src={headshot} alt="headshot of Dustin" className="headshot"/>
     </div>
   )
