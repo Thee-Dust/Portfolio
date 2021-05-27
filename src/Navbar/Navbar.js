@@ -1,16 +1,16 @@
 import React from 'react'
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 
 export default function Navbar() {
   return (
     <nav>
       <div className='links'>
-        <Link to='/'>Home</Link>
-        <Link to='/About'>About</Link>
-        <Link to='/Projects'>Projects</Link>
-        <Link to='/Resume'>Resume</Link>
-        <Link to='/Contact'>Contact Me</Link>
+        <Link to='home' smooth={true} duration={1000}>Home</Link>
+        <Link to='about' smooth={true} duration={1000}>About</Link>
+        <Link to='projects' smooth={true} duration={1000}>Projects</Link>
+        <Link to='resume' smooth={true} duration={1000}>Resume</Link>
+        <Link to='contact' smooth={true} duration={1000}>Contact Me</Link>
       </div>
     </nav>
   )

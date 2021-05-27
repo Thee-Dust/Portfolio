@@ -1,8 +1,10 @@
 nav {
   height: 50px;
-  background: #A7A7A7;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
+  position: fixed;
+  font-size: 1.25rem;
 }
 
 .links {
@@ -13,10 +15,11 @@ nav {
 }
 
 .links > a {
-  color: black;
+  cursor: pointer;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .links > a:visited {
-  color: black;
+  color: #ffffff;
 }
